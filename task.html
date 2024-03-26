@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Pricing Page</h1>
+  </header>
+
+  <main>
+    <div class="pricing-toggle">
+      <label>
+        <input type="checkbox" id="annualToggle"> Annual Billing
+      </label>
+    </div>
+
+    <div class="pricing-plans">
+      <div class="plan">
+        <h2>Basic</h2>
+        <div class="price" data-monthly="10" data-annual="100"> 
+          <span class="monthly">$10/month</span>
+          <span class="annual">$100/year</span>
+        </div>
+      </div>
+      <div class="plan">
+        <h2>Pro</h2>
+        <div class="price" data-monthly="20" data-annual="200">
+          <span class="monthly">$20/month</span>
+          <span class="annual">$200/year</span>
+        </div>
+      </div>
+      <div class="plan">
+        <h2>Premium</h2>
+        <div class="price" data-monthly="30" data-annual="300">
+          <span class="monthly">$30/month</span>
+          <span class="annual">$300/year</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
